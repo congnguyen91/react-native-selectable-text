@@ -39,6 +39,8 @@ repositories {
     mavenCentral()
 }
 
+def kotlin_version = getExtOrDefault('kotlinVersion')
+
 dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
